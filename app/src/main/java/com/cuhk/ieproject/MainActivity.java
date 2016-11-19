@@ -219,7 +219,7 @@ public class MainActivity extends AppCompatActivity {
                 } catch (IllegalFormatException e) {
                     Toast.makeText(MainActivity.this, "Cannot start ranging, something terrible happened",
                             Toast.LENGTH_LONG).show();
-                    Log.e(TAG, "Cannot start ranging", e);
+                    Log.e(TAG, "Cannot start ranging", e);//asdd
                 }
             }
         });
